@@ -40,7 +40,7 @@ else:
                 'TOEFL Score': TOEFL,
                 'University Rating': URATE,
                 'SOP': SOP,
-                '	LOR': LOR,
+                'LOR': LOR,
                 'CGPA': CGPA,
                 'Research': research}
         features = pd.DataFrame(data, index=[1])
